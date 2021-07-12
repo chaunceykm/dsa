@@ -45,6 +45,9 @@ class mySet {
     firstSet.forEach((e) => {
       unionSet.add(e);
     });
+    secondSet.forEach((e) => {
+      unionSet.add(e)
+    })
     return unionSet;
   }
 
